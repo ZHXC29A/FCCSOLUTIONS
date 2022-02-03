@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(170, 184, 206);
+    font-family: 'Times New Roman', Times, serif;
+}
+#title{
+    font-size: 60px;
+    text-align: center;
+}
+
+
+#image{
+    display: block;
+    width: 25%;
+    max-width: 625px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px;
+}
+
+#img-caption{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+#tribute-info p{
+    font-size: 18px;
+    text-align:justify;
+    margin: 3%;
+    padding: 5px;
+}
+#tribute-link{ 
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #3532dd;
+    text-decoration: none;
+    margin-left: 45%;
+    margin-right: 45%;
+    
+   
+}
+
+.rows{
+    display: block;
+    text-align: center;
+    
+}
+.cols{
+    display: inline;
+    padding: 20px;
+}
+
+#work-subt{
+    text-align: center;
+    
+}
