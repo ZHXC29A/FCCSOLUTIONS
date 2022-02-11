@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css"></link>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <h1 id="title">Hello everyone!</h1>
+        <p id="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae repellendus inventore
+            quisquam quo illum molestiae a possimus eaque? Error saepe ullam distinctio autem voluptatibus libero,
+            incidunt quis non voluptatum eius.</p>
+
+        
+            <form id="survey-form" class="sf" action="">
+                <label id="name-label" for="name">Name: </label>
+                <input id="name" type="text" placeholder="Name" required>
+
+                <label id="email-label" for="email">E-mail: </label>
+                <input id="email" type="email" placeholder="Email" required>
+
+                <label id="number-label" for="number">Number: </label>
+                <input id="number" type="number" min="1" max="10" placeholder="number">
+
+                <label id="dropdown-label" for="number">Order</label>
+                <select name="prefered-order" id="dropdown">
+                    <option value="123">123</option>
+                    <option value="321">321</option>
+                </select>
+                
+                <label for="check-one">check one</label>
+                <input type="checkbox" id="check-one" value="check1">
+                <label for="check-two">check two</label>
+                <input type="checkbox" id="check-two" value="check2">
+                
+                <label for="radio-one">radio one</label>
+                <input type="radio" id="radio-one" value="radio1" name="pref-radio">
+                <label for="radio-two">radio two</label>
+                <input type="radio" id="radio-two" value="radio2" name="pref-radio">
+                <textarea name="textarea" rows="10" cols="50"></textarea>
+
+                <button id="submit">Submit</button>
+                
+            </form>
+
+        
+
+
+
+    </div>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

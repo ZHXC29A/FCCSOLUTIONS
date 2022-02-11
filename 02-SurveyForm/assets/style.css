@@ -1,0 +1,35 @@
+#survey-form{
+    margin: 5%;
+    background-color: rgb(232, 240, 240);
+}
+
+label,input{
+    display: block;
+    width: auto;
+    margin: 10px;
+}
+
+select{
+    display: block;
+    width: auto;
+    margin: 10px;
+}
+
+#checks{
+    display: inline;
+}
+
+textarea{
+    resize: none;
+}
+#description{
+    font-size: 20px;
+    color: rgb(27, 25, 25);
+    text-align: justify;
+    margin: 5%;
+}   
+
+#title{
+    text-align: center;
+    font-family: cursive;
+}
